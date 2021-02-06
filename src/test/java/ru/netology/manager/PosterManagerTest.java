@@ -47,7 +47,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
         @Test
         void showPoster2() {
-                PosterManager manager = new PosterManager(5);
+                PosterManager manager = new PosterManager(10);
                 manager.add(m1);
                 manager.add(m2);
                 manager.add(m3);
